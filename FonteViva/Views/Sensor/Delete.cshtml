@@ -1,0 +1,31 @@
+﻿@model Sensor
+
+@{
+    ViewData["Title"] = "Confirmar Exclusão";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="alert alert-danger">
+    <strong>Tem certeza que deseja excluir este Sensor?</strong>
+</div>
+
+<dl class="row">
+    <dt class="col-sm-2">ID</dt>
+    <dd class="col-sm-10">@Model.Id</dd>
+
+    <dt class="col-sm-2">Tp Sensor</dt>
+    <dd class="col-sm-10">@Model.TpSensor</dd>
+
+    <dt class="col-sm-2">Tp Medida</dt>
+    <dd class="col-sm-10">@Model.TpMedida</dd>
+
+    <dt class="col-sm-2">Estação de tratamento</dt>
+    <dd class="col-sm-10">@Model.IdEstacao</dd>
+</dl>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Sim, excluir</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

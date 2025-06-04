@@ -78,19 +78,6 @@ namespace FonteViva.Controllers.Api
             });
         }
 
-        //[HttpGet("debug")]
-        //public async Task<ActionResult<FornecedorDetalhadoDto>> GetById(string cnpj)
-        //{
-        //    var fornecedor = await _repository.GetByIdWithIncludesAsync(cnpj,
-        //        f => f.Contatos,
-        //        f => f.Materials
-        //    );
-        //    if (fornecedor == null) return NotFound();
-
-        //    return Ok(fornecedor);
-        //        }
-
-
         [HttpPost]
         public async Task<ActionResult<FornecedorListagemDto>> Post([FromBody] FornecedorListagemDto dto)
         {

@@ -1,0 +1,88 @@
+﻿@using FonteViva.DTO
+@model SensorDetalhadoDto
+
+
+<h2>Sensor</h2>
+<table class="table" align="center">
+	<thead>
+		<tr>
+			<th>Dt Registro</th>
+			<th>Resultado</th>
+			<th>Unidade de Medida</th>
+		</tr>
+	</thead>
+	<tbody>
+			<tr>
+				<td>@Model.Id</td>
+				<td>@Model.TpSensor</td>
+				<td>@Model.TpMedida</td>
+				<td>
+			</tr>
+	</tbody>
+</table>
+
+<h2>Estação de tratamento</h2>
+<table class="table" align="center">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Status</th>
+			<th>Data De instalação</th>
+			<th>CPF Responsavel</th>
+		</tr>
+	</thead>
+	<tbody>
+			<tr>
+				<td>@Model.Estacao.Id</td>
+				<td>@Model.Estacao.Status</td>
+				<td>@Model.Estacao.DataInstalacao</td>
+				<td>@Model.Estacao.CPF</td>
+				<td>
+			</tr>
+	</tbody>
+</table>
+
+<h2>Lista de Registros</h2>
+<table class="table" align="center">
+	<thead>
+		<tr>
+			<th>Dt Registro</th>
+			<th>Resultado</th>
+			<th>Unidade de Medida</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var registro in Model.Registros)
+		{
+			<tr>
+				<td>@registro.DtRegistro</td>
+				<td>@registro.Resultado</td>
+				<td>@Model.TpMedida</td>
+				<td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<a asp-action="Index" class="btn btn-secondary mt-3">Voltar</a>
+
+
+
+@*     var sensorDetalhado = new SensorDetalhadoDto *@
+@* { *@
+@*     Id = sensor.Id, *@
+@*     TpSensor = sensor.TpSensor, *@
+@*     TpMedida = sensor.TpMedida, *@
+@*     Estacao = new EstacaoListagemDto *@
+@*     { *@
+@*         Id = sensor.EstacaoTratamento.Id, *@
+@*         Status = sensor.EstacaoTratamento.Status, *@
+@*         DataInstalacao = sensor.EstacaoTratamento.DataInstalacao *@
+@*     }, *@
+@*     Registros = sensor.RegistroMedidas.Select(r => new RegistroMedidaDto *@
+@*     { *@
+@*         Id = r.Id, *@
+@*         Resultado = r.Resultado, *@
+@*         DtRegistro = r.DtRegistro *@
+@*     }).ToList() *@
+@* }; *@

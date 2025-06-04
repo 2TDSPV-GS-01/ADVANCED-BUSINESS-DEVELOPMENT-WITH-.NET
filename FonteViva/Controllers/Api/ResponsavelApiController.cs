@@ -50,7 +50,7 @@ namespace FonteViva.Controllers.Api
                     Email = c.Email,
                     Telefone = c.Telefone,
                 }).ToList(),
-                EstacaoTratamentos = (ICollection<EstacaoTratamentoDto>)responsavel.EstacaoTratamentos.Select(e => new EstacaoListagemDto
+                EstacaoTratamentos = responsavel.EstacaoTratamentos.Select(e => new EstacaoTratamentoDto
                 {
                     Id = e.Id,
                     Status = e.Status,

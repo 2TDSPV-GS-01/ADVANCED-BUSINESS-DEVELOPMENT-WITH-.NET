@@ -52,7 +52,8 @@ namespace FonteViva.Controllers.Api
                 {
                     Id = sensor.EstacaoTratamento.Id,
                     Status = sensor.EstacaoTratamento.Status,
-                    DataInstalacao = sensor.EstacaoTratamento.DataInstalacao
+                    DataInstalacao = sensor.EstacaoTratamento.DataInstalacao,
+                    CPF = sensor.EstacaoTratamento.CPF,
                 },
                 Registros = sensor.RegistroMedidas.Select(r => new RegistroMedidaDto
                 {

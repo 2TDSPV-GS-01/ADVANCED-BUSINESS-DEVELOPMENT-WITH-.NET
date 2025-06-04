@@ -38,7 +38,9 @@ namespace FonteViva.Data
                 .StartsAt(1)
                 .IncrementsBy(1);
 
-            modelBuilder.HasSequence<int>("SEQ_ID_SENSOR");
+            modelBuilder.HasSequence<int>("SEQ_ID_SENSOR")
+                .StartsAt(1)
+                .IncrementsBy(1);
 
             modelBuilder.Entity<Contato>(entity =>
             {
@@ -48,6 +50,7 @@ namespace FonteViva.Data
 
                 entity.Property(e => e.Id)
                       .HasColumnName("ID_CONTATO")
+                      .ValueGeneratedOnAdd()
                       .HasDefaultValueSql("SEQ_ID_CONTATO.NEXTVAL");
 
                 entity.Property(e => e.Telefone)
@@ -89,6 +92,7 @@ namespace FonteViva.Data
 
                 entity.Property(e => e.Id)
                 .HasColumnName("ID_ENDERECO")
+                .ValueGeneratedOnAdd()
                 .HasDefaultValueSql("SEQ_ID_ENDERECO.NEXTVAL");
 
                 entity.Property(e => e.Pais)
@@ -238,6 +242,7 @@ namespace FonteViva.Data
 
                 entity.Property(e => e.Id)
                 .HasColumnName("ID_SENSOR")
+                .ValueGeneratedOnAdd()
                 .HasDefaultValueSql("SEQ_ID_SENSOR.NEXTVAL");
 
                 entity.Property(e => e.TpSensor)

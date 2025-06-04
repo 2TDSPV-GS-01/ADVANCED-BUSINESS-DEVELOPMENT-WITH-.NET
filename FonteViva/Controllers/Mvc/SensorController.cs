@@ -14,10 +14,23 @@ namespace FonteViva.Controllers
             _repository = repository;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? idEstacao)
         {
             var sensores = await _repository.GetAllAsync();
-            return View(sensores);
+
+            if (idEstacao.HasValue)
+                sensores = sensores.Where(s => s.IdEstacao == idEstacao.Value).ToList();
+
+
+            var lista = sensores.Select(s => new SensorListagemDto
+            {
+                Id = s.Id,
+                TpSensor = s.TpSensor,
+                TpMedida = s.TpMedida,
+                IdEstacao = s.IdEstacao
+            }).ToList();
+
+            return View(lista);
         }
 
         public async Task<IActionResult> Details(int id)
@@ -39,7 +52,8 @@ namespace FonteViva.Controllers
                 {
                     Id = sensor.EstacaoTratamento.Id,
                     Status = sensor.EstacaoTratamento.Status,
-                    DataInstalacao = sensor.EstacaoTratamento.DataInstalacao
+                    DataInstalacao = sensor.EstacaoTratamento.DataInstalacao,
+                    CPF = sensor.EstacaoTratamento.CPF,
                 },
                 Registros = sensor.RegistroMedidas.Select(r => new RegistroMedidaDto
                 {

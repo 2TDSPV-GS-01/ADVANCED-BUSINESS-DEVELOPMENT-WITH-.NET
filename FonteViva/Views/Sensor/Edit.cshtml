@@ -1,0 +1,32 @@
+﻿@model Sensor
+
+@{
+    ViewData["Title"] = "Editar Filial";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="TpSensor"></label>
+        <input asp-for="TpSensor" class="form-control" />
+        <span asp-validation-for="TpSensor" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TpMedida"></label>
+        <input asp-for="TpMedida" class="form-control" />
+        <span asp-validation-for="TpMedida" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+        <label asp-for="IdEstacao"></label>
+        <input asp-for="IdEstacao" class="form-control" />
+        <span asp-validation-for="IdEstacao" class="text-danger"></span>
+
+    </div>
+
+    <button type="submit" class="btn btn-success mt-3">Salvar Alterações</button>
+    <a asp-action="Index" class="btn btn-secondary mt-3">Cancelar</a>
+</form>
