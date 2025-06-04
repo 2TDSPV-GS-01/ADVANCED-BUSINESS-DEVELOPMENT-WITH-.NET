@@ -17,6 +17,7 @@ namespace FonteViva.Repository
 
         public async Task<List<T>> GetAllAsync() => await _dbSet.ToListAsync();
 
+
         public async Task<T?> GetByIdAsync(object id) => await _dbSet.FindAsync(id);
 
         public async Task AddAsync(T entity)

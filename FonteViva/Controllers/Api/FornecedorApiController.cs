@@ -11,7 +11,13 @@ namespace FonteViva.Controllers.Api
     {
         private readonly IRepository<Fornecedor> _repository;
 
-        private readonly EnderecoApiController _enderecoApiController;
+        private readonly IRepository<Endereco> _enderecoRepo;
+
+        public FornecedorApiController(IRepository<Fornecedor> repository, IRepository<Endereco> enderecoRepo)
+        {
+            _repository = repository;
+            _enderecoRepo = enderecoRepo;
+        }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<FornecedorListagemDto>>> Get()
@@ -38,6 +44,9 @@ namespace FonteViva.Controllers.Api
             );
             if (fornecedor == null) return NotFound();
 
+            var endereco = await _enderecoRepo.GetByIdAsync(fornecedor.IdEndereco);
+            if (endereco == null) return NotFound("Endereço não encontrado");
+
             return Ok(value: new FornecedorDetalhadoDto
             {
                 CNPJ = fornecedor.CNPJ,
@@ -48,7 +57,15 @@ namespace FonteViva.Controllers.Api
                     Email = c.Email,
                     Telefone = c.Telefone
                 }).ToList(),
-                Endereco = (await _enderecoApiController.GetById(fornecedor.IdEndereco)).Value!,
+                Endereco = new EnderecoDto
+                {
+                    Id = endereco.Id,
+                    Pais = endereco.Pais,
+                    Estado = endereco.Estado,
+                    Cidade = endereco.Cidade,
+                    Rua = endereco.Rua,
+                    CEP = endereco.CEP
+                },
                 Materials = fornecedor.Materials.Select(m => new MaterialDto
                 {
                     Id = m.Id,
@@ -60,6 +77,19 @@ namespace FonteViva.Controllers.Api
                 }).ToList()
             });
         }
+
+        //[HttpGet("debug")]
+        //public async Task<ActionResult<FornecedorDetalhadoDto>> GetById(string cnpj)
+        //{
+        //    var fornecedor = await _repository.GetByIdWithIncludesAsync(cnpj,
+        //        f => f.Contatos,
+        //        f => f.Materials
+        //    );
+        //    if (fornecedor == null) return NotFound();
+
+        //    return Ok(fornecedor);
+        //        }
+
 
         [HttpPost]
         public async Task<ActionResult<FornecedorListagemDto>> Post([FromBody] FornecedorListagemDto dto)

@@ -11,6 +11,11 @@ namespace FonteViva.Controllers.Api
     {
         private readonly IRepository<Endereco> _repository;
 
+        public EnderecoApiController(IRepository<Endereco> repository)
+        {
+            _repository = repository;
+        }
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<EnderecoDto>>> Get()
         {
@@ -28,6 +33,7 @@ namespace FonteViva.Controllers.Api
 
             return Ok(listaDto);
         }
+
 
         [HttpGet("{id}")]
         public async Task<ActionResult<EnderecoDto>> GetById(int id)

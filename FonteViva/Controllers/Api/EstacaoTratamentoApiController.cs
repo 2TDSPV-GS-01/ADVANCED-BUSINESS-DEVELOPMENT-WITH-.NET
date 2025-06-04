@@ -25,7 +25,8 @@ namespace FonteViva.Controllers.Api
             {
                 Id = e.Id,
                 Status = e.Status,
-                DataInstalacao = e.DataInstalacao
+                DataInstalacao = e.DataInstalacao,
+                CPF = e.CPF
             }).ToList();
 
             return Ok(lista);

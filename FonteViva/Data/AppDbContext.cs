@@ -108,12 +108,12 @@ namespace FonteViva.Data
 
                 entity.Property(e => e.Rua)
                 .HasColumnName("DS_RUA")
+                .HasColumnType("CLOB")
                 .IsRequired();
 
                 entity.Property(e => e.CEP)
                 .HasColumnName("DS_CEP")
-                .HasMaxLength(8)
-                .IsRequired();
+                .HasMaxLength(8);
 
             });
 

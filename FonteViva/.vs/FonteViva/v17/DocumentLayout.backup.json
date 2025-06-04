@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|c:\\users\\xfran\\desktop\\2tdspv\\gs-01\\advanced-business-development-with-.net\\fonteviva\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|c:\\users\\xfran\\desktop\\2tdspv\\gs-01\\advanced-business-development-with-.net\\fonteviva\\controllers\\mvc\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|solutionrelative:controllers\\mvc\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|c:\\users\\xfran\\desktop\\2tdspv\\gs-01\\advanced-business-development-with-.net\\fonteviva\\controllers\\api\\fornecedorapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|solutionrelative:controllers\\api\\fornecedorapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|c:\\users\\xfran\\desktop\\2tdspv\\gs-01\\advanced-business-development-with-.net\\fonteviva\\controllers\\api\\estacaotratamentoapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|solutionrelative:controllers\\api\\estacaotratamentoapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|c:\\users\\xfran\\desktop\\2tdspv\\gs-01\\advanced-business-development-with-.net\\fonteviva\\dto\\estacaolistagemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|solutionrelative:dto\\estacaolistagemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|c:\\users\\xfran\\desktop\\2tdspv\\gs-01\\advanced-business-development-with-.net\\fonteviva\\models\\estacaotratamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|solutionrelative:models\\estacaotratamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|c:\\users\\xfran\\desktop\\2tdspv\\gs-01\\advanced-business-development-with-.net\\fonteviva\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,16 +31,20 @@
       "RelativeMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|solutionrelative:controllers\\api\\registromedidaapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|c:\\users\\xfran\\desktop\\2tdspv\\gs-01\\advanced-business-development-with-.net\\fonteviva\\controllers\\api\\materialapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|solutionrelative:controllers\\api\\materialapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|c:\\users\\xfran\\desktop\\2tdspv\\gs-01\\advanced-business-development-with-.net\\fonteviva\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|c:\\users\\xfran\\desktop\\2tdspv\\gs-01\\advanced-business-development-with-.net\\fonteviva\\controllers\\mvc\\registromedidacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|solutionrelative:controllers\\mvc\\registromedidacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|c:\\users\\xfran\\desktop\\2tdspv\\gs-01\\advanced-business-development-with-.net\\fonteviva\\controllers\\mvc\\materialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|solutionrelative:controllers\\mvc\\materialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|c:\\users\\xfran\\desktop\\2tdspv\\gs-01\\advanced-business-development-with-.net\\fonteviva\\controllers\\api\\materialapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|solutionrelative:controllers\\api\\materialapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F091D621-70ED-40CF-A41D-F00CCAA9C685}|FonteViva.csproj|c:\\users\\xfran\\desktop\\2tdspv\\gs-01\\advanced-business-development-with-.net\\fonteviva\\dto\\materialdetalhadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,37 +58,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FornecedorController.cs",
+              "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Controllers\\Mvc\\FornecedorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Mvc\\FornecedorController.cs",
+              "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Controllers\\Mvc\\FornecedorController.cs",
+              "RelativeToolTip": "Controllers\\Mvc\\FornecedorController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAwwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T02:49:32.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FornecedorApiController.cs",
+              "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Controllers\\Api\\FornecedorApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Api\\FornecedorApiController.cs",
+              "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Controllers\\Api\\FornecedorApiController.cs",
+              "RelativeToolTip": "Controllers\\Api\\FornecedorApiController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwDsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T01:58:24.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EstacaoListagemDto.cs",
+              "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\DTO\\EstacaoListagemDto.cs",
+              "RelativeDocumentMoniker": "DTO\\EstacaoListagemDto.cs",
+              "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\DTO\\EstacaoListagemDto.cs",
+              "RelativeToolTip": "DTO\\EstacaoListagemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T01:51:33.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EstacaoTratamento.cs",
+              "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Models\\EstacaoTratamento.cs",
+              "RelativeDocumentMoniker": "Models\\EstacaoTratamento.cs",
+              "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Models\\EstacaoTratamento.cs",
+              "RelativeToolTip": "Models\\EstacaoTratamento.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIAxwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T01:51:09.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EstacaoTratamentoApiController.cs",
+              "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Controllers\\Api\\EstacaoTratamentoApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Api\\EstacaoTratamentoApiController.cs",
+              "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Controllers\\Api\\EstacaoTratamentoApiController.cs",
+              "RelativeToolTip": "Controllers\\Api\\EstacaoTratamentoApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T01:50:20.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAANEAAAAAAAAAAAAswNsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T21:09:23.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T20:45:03.125Z",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T22:52:46.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "RegistroMedidaController.cs",
               "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Controllers\\Mvc\\RegistroMedidaController.cs",
               "RelativeDocumentMoniker": "Controllers\\Mvc\\RegistroMedidaController.cs",
@@ -76,25 +161,24 @@
               "RelativeToolTip": "Controllers\\Mvc\\RegistroMedidaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T20:42:23.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T20:42:23.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "RegistroMedidaApiController.cs",
               "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Controllers\\Api\\RegistroMedidaApiController.cs",
               "RelativeDocumentMoniker": "Controllers\\Api\\RegistroMedidaApiController.cs",
               "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Controllers\\Api\\RegistroMedidaApiController.cs",
               "RelativeToolTip": "Controllers\\Api\\RegistroMedidaApiController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T20:42:03.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "MaterialController.cs",
               "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Controllers\\Mvc\\MaterialController.cs",
               "RelativeDocumentMoniker": "Controllers\\Mvc\\MaterialController.cs",
@@ -102,25 +186,11 @@
               "RelativeToolTip": "Controllers\\Mvc\\MaterialController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA1wBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T20:40:23.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T20:40:23.179Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MaterialDetalhadoDto.cs",
-              "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\DTO\\MaterialDetalhadoDto.cs",
-              "RelativeDocumentMoniker": "DTO\\MaterialDetalhadoDto.cs",
-              "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\DTO\\MaterialDetalhadoDto.cs",
-              "RelativeToolTip": "DTO\\MaterialDetalhadoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T20:37:50.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MaterialApiController.cs",
               "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\Controllers\\Api\\MaterialApiController.cs",
               "RelativeDocumentMoniker": "Controllers\\Api\\MaterialApiController.cs",
@@ -130,6 +200,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T20:30:27.932Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MaterialDetalhadoDto.cs",
+              "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\DTO\\MaterialDetalhadoDto.cs",
+              "RelativeDocumentMoniker": "DTO\\MaterialDetalhadoDto.cs",
+              "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\GS-01\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\\FonteViva\\DTO\\MaterialDetalhadoDto.cs",
+              "RelativeToolTip": "DTO\\MaterialDetalhadoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T20:37:50.616Z"
             }
           ]
         }

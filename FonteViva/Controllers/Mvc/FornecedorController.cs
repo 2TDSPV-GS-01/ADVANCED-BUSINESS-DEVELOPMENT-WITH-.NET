@@ -1,5 +1,4 @@
-﻿using FonteViva.Controllers.Api;
-using FonteViva.DTO;
+﻿using FonteViva.DTO;
 using FonteViva.Models;
 using FonteViva.Repository;
 using Microsoft.AspNetCore.Mvc;
@@ -10,11 +9,12 @@ namespace FonteViva.Controllers.Mvc
     {
         private readonly IRepository<Fornecedor> _repository;
 
-        private readonly EnderecoApiController _enderecoApiController;
+        private readonly IRepository<Endereco> _enderecoRepo;
 
-        public FornecedorController(IRepository<Fornecedor> repository)
+        public FornecedorController(IRepository<Fornecedor> repository, IRepository<Endereco> enderecoRepo)
         {
             _repository = repository;
+            _enderecoRepo = enderecoRepo;
         }
 
         public async Task<IActionResult> Index()
@@ -39,6 +39,8 @@ namespace FonteViva.Controllers.Mvc
 
             if (fornecedor == null)
                 return NotFound();
+            var endereco = await _enderecoRepo.GetByIdAsync(fornecedor.IdEndereco);
+            if (endereco == null) return NotFound("Endereço não encontrado");
 
             var fornecedorDetalhado = new FornecedorDetalhadoDto
             {
@@ -50,7 +52,15 @@ namespace FonteViva.Controllers.Mvc
                     Email = c.Email,
                     Telefone = c.Telefone
                 }).ToList(),
-                Endereco = (await _enderecoApiController.GetById(fornecedor.IdEndereco)).Value!,
+                Endereco = new EnderecoDto
+                {
+                    Id = endereco.Id,
+                    Pais = endereco.Pais,
+                    Estado = endereco.Estado,
+                    Cidade = endereco.Cidade,
+                    Rua = endereco.Rua,
+                    CEP = endereco.CEP
+                },
                 Materials = fornecedor.Materials.Select(m => new MaterialDto
                 {
                     Id = m.Id,
@@ -64,8 +74,6 @@ namespace FonteViva.Controllers.Mvc
 
             return View(fornecedorDetalhado);
         }
-
-
 
         [HttpPost]
         [ValidateAntiForgeryToken]
