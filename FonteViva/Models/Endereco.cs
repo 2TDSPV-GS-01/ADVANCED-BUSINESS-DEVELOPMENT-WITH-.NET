@@ -1,7 +1,10 @@
-﻿namespace FonteViva.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace FonteViva.Models
 {
     public class Endereco
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string? Pais { get; set; } = null!;
         public string? Estado { get; set; } = null!;

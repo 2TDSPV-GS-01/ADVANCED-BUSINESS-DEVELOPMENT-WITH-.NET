@@ -1,0 +1,46 @@
+﻿@using FonteViva.DTO
+@model List<SensorListagemDto>
+
+
+<h2 class="text-center mb-4">Lista de Sensores</h2>
+
+<form method="get" asp-action="Index" class="form-inline mb-3">
+	<label for="idEstacao" class="mr-2">Filtrar por Estação:</label>
+	<input type="number" name="idEstacao" id="idEstacao" class="form-control mr-2" placeholder="ID da Estação" />
+	<button type="submit" class="btn btn-primary">Filtrar</button>
+	<a asp-action="Index" class="btn btn-secondary ml-2">Limpar</a>
+</form>
+
+<table class="table" align="center">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>TP SENSOR</th>
+			<th>TP MEDIDA</th>
+			<th>ESTAÇÃO DE TRATAMENTO</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var sensor in Model)
+		{
+			<tr>
+				<td>@sensor.Id</td>
+				<td>@sensor.TpSensor</td>
+				<td>@sensor.TpMedida</td>
+				<td>@sensor.IdEstacao</td>
+				<td>
+					<a asp-action="Details" asp-route-id="@sensor.Id" class="btn btn-info btn-sm">Ver</a>
+				</td>
+				<td>
+					<a asp-action="Edit" asp-route-id="@sensor.Id" class="btn btn-warning btn-sm">Editar</a>
+				</td>
+				<td>
+					<a asp-action="Delete" asp-route-id="@sensor.Id" class="btn btn-danger btn-sm">Excluir</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<a class="btn btn-primary m-2" asp-controller="Sensor" asp-action="Create">Novo Sensor</a>
+

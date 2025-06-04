@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\FonteViva.ny25x9f38n.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-P9Nxfc9xF956vASkYepBNBUk9MDbTQV1g840/M84TSA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022P9Nxfc9xF956vASkYepBNBUk9MDbTQV1g840/M84TSA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 02:54:20 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022P9Nxfc9xF956vASkYepBNBUk9MDbTQV1g840/M84TSA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 19:45:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FonteViva/FonteViva.ny25x9f38n.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\FonteViva.ny25x9f38n.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ny25x9f38n"},{"Name":"integrity","Value":"sha256-P9Nxfc9xF956vASkYepBNBUk9MDbTQV1g840/M84TSA="},{"Name":"label","Value":"_content/FonteViva/FonteViva.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022P9Nxfc9xF956vASkYepBNBUk9MDbTQV1g840/M84TSA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 02:54:20 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022P9Nxfc9xF956vASkYepBNBUk9MDbTQV1g840/M84TSA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 19:45:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FonteViva/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
