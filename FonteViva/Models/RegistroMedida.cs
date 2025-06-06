@@ -2,12 +2,12 @@
 {
     public class RegistroMedida
     {
-        public string Id { get; private set; } = null!;
-        public DateTime DtRegistro { get; private set; }
-        public float Resultado { get; private set; }
-        public int IdSensor { get; private set; }
+        public string Id { get; set; } = null!;
+        public DateTime DtRegistro { get; set; }
+        public float Resultado { get; set; }
+        public int IdSensor { get; set; }
 
-        public Sensor Sensor { get; private set; } = null!;
+        public Sensor Sensor { get; set; } = null!;
 
     }
 }

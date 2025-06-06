@@ -151,3 +151,9 @@ C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\Font
 C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\obj\Release\net8.0\FonteViva.pdb
 C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\obj\Release\net8.0\FonteViva.genruntimeconfig.cache
 C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\obj\Release\net8.0\ref\FonteViva.dll
+C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\bin\Release\net8.0\deploy\web.config
+C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\bin\Release\net8.0\deploy\appsettings.Development.json
+C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\bin\Release\net8.0\deploy\appsettings.json
+C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\bin\Release\net8.0\deploy\FonteViva.deps.json
+C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\bin\Release\net8.0\deploy\FonteViva.runtimeconfig.json
+C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\bin\Release\net8.0\deploy\FonteViva.staticwebassets.endpoints.json

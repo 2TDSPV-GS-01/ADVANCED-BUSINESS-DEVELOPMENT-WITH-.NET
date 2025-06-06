@@ -1,6 +1,12 @@
 C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\deploy\FonteViva.exe
+C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\deploy\deploy\web.config
 C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\deploy\appsettings.Development.json
 C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\deploy\appsettings.json
+C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\deploy\deploy\appsettings.Development.json
+C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\deploy\deploy\appsettings.json
+C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\deploy\deploy\FonteViva.deps.json
+C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\deploy\deploy\FonteViva.runtimeconfig.json
+C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\deploy\deploy\FonteViva.staticwebassets.endpoints.json
 C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\deploy\FonteViva.dll
 C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\deploy\FonteViva.runtimeconfig.json
 C:\Users\xfran\Desktop\2TDSPV\GS-01\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET\FonteViva\deploy\FonteViva.pdb

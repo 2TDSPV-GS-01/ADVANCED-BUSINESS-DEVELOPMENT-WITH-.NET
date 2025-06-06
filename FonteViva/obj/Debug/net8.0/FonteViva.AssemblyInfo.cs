@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FonteViva")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+644a3bf5211a39ba5a6f42ddcd7fa04ccf1b5299")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73e4ff47b276934b958d13027a67e943985909dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("FonteViva")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FonteViva")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

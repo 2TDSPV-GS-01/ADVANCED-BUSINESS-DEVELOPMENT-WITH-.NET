@@ -566,6 +566,32 @@
   },
   {
     "ContainingType": "FonteViva.Controllers.Api.RegistroMedidaApiController",
+    "Method": "Post",
+    "RelativePath": "api/RegistroMedidaApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FonteViva.DTO.RegistroMedidaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FonteViva.DTO.RegistroMedidaDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FonteViva.Controllers.Api.RegistroMedidaApiController",
     "Method": "GetById",
     "RelativePath": "api/RegistroMedidaApi/{id}",
     "HttpMethod": "GET",

@@ -47,5 +47,22 @@ namespace FonteViva.Controllers.Api
                 IdSensor = registro.IdSensor
             });
         }
+
+        [HttpPost]
+        public async Task<ActionResult<RegistroMedidaDto>> Post([FromBody] RegistroMedidaDto dto)
+        {
+            var entity = new RegistroMedida
+            {
+                Id = dto.Id,
+                DtRegistro = dto.DtRegistro,
+                Resultado = dto.Resultado,
+                IdSensor = dto.IdSensor,
+            };
+
+            await _repository.AddAsync(entity);
+            return CreatedAtAction(nameof(GetById), new { id = dto.Id }, dto);
+        }
+
+
     }
 }
