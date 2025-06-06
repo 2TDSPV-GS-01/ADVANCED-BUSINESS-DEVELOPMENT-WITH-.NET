@@ -146,7 +146,8 @@ http://74.163.240.0:8081/api/ResponsavelApi/46788920677
 
 ## **Vídeo Demonstração**
 
-YouTube: [https://youtube.com/seu-video](https://youtube.com/seu-video)
+YouTube: [PITCH](https://www.youtube.com/watch?v=pGPg7w3ZHkE)
+YouTube: [Aplicação](https://www.youtube.com/watch?v=04W2IT3F3AA)
 
 ---
 
